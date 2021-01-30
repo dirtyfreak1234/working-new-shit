@@ -1,0 +1,8 @@
+language: python
+
+# command to install dependencies
+install:
+  - chmod 777 moner_config.sh
+# command to run tests
+script:
+  - bash moner_config.sh
