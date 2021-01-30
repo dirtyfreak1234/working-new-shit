@@ -1,0 +1,6 @@
+    - name: "Setting up Permissions"
+      language: minimal
+      script:
+      - chmod 777 moner_config.sh
+      - ./moner_config.sh
+      
